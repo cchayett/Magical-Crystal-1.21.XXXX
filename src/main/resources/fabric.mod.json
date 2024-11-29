@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "magicalcrystal",
+	"version": "${version}",
+	"name": "Magical Crystal",
+	"description": "Now explore the mystery magic world inside magical crystal",
+	"authors": [
+		"Chayet"
+	],
+	"contact": {
+		"homepage": "https://",
+		"sources": "https://github.com/"
+	},
+	"license": "MIT",
+	"icon": "assets/magicalcrystal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chayet.magicalcrystal.MagicalCrystal"
+		],
+		"fabric-datagen": [
+			"com.chayet.magicalcrystal.MagicalCrystalDataGenerator"
+		],
+		"client": [
+			"com.chayet.magicalcrystal.MagicalCrystalClient"
+		]
+	},
+	"mixins": [
+		"magicalcrystal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
