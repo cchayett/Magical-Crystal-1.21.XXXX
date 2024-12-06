@@ -1,0 +1,25 @@
+{
+    "item.magicalcrystal.magical_crystal":"魔晶",
+    "item.magicalcrystal.magical_crystal_ingot":"魔晶锭",
+    "item.magicalcrystal.magical_crystal_fragment":"魔晶碎屑",
+    "item.magicalcrystal.magical_crystal_nugget":"魔晶粒",
+    "item.magicalcrystal.magical_crystal_coal":"魔晶质炭",
+
+    "block.magicalcrystal.magical_crystal_block":"魔晶块",
+    "block.magicalcrystal.magical_crystal_ore":"魔晶矿石",
+    "block.magicalcrystal.deepslate_magical_crystal_ore":"深层魔晶矿石",
+    "block.magicalcrystal.magical_crystal_coal_block":"魔晶质炭块",
+    "block.magicalcrystal.chaos_log":"混沌原木",
+    "block.magicalcrystal.chaos_wood":"混沌木",
+    "block.magicalcrystal.chaos_planks":"混沌木板",
+    "block.magicalcrystal.stripped_chaos_log":"去皮混沌原木",
+    "block.magicalcrystal.stripped_chaos_wood":"去皮混沌木",
+    "block.magicalcrystal.chaos_button":"混沌木按钮",
+    "block.magicalcrystal.chaos_pressure_plate":"混沌木压力板",
+    "block.magicalcrystal.chaos_fence":"混沌木栅栏",
+    "block.magicalcrystal.chaos_fence_gate":"混沌木栅栏门",
+
+    "itemGroup.magicalcrystal.magicalcrystal_item_group":"魔晶世界"
+
+
+}

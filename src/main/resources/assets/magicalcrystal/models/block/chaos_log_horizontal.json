@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column_horizontal",
+  "textures": {
+    "end": "magicalcrystal:block/chaos_log_top",
+    "side": "magicalcrystal:block/chaos_log"
+  }
+}

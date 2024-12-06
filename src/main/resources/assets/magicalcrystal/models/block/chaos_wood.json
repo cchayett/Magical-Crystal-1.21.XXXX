@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "magicalcrystal:block/chaos_log",
+    "side": "magicalcrystal:block/chaos_log"
+  }
+}

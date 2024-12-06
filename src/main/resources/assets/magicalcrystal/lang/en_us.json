@@ -1,0 +1,25 @@
+{
+  "item.magicalcrystal.magical_crystal":"Magical Crystal",
+  "item.magicalcrystal.magical_crystal_ingot":"Magical Crystal Ingot",
+  "item.magicalcrystal.magical_crystal_fragment":"Magical Crystal Fragment",
+  "item.magicalcrystal.magical_crystal_nugget":"Magical Crystal Nugget",
+  "item.magicalcrystal.magical_crystal_coal":"Magical Crystal Coal",
+
+  "block.magicalcrystal.magical_crystal_block":"Magical Crystal Block",
+  "block.magicalcrystal.magical_crystal_ore":"Magical Crystal Ore",
+  "block.magicalcrystal.deepslate_magical_crystal_ore":"Deepslate Magical Crystal Ore",
+  "block.magicalcrystal.magical_crystal_coal_block":"Magical Crystal Coal Block",
+  "block.magicalcrystal.chaos_log":"Chaos Log",
+  "block.magicalcrystal.chaos_wood":"Chaos Wood",
+  "block.magicalcrystal.chaos_planks":"Chaos Plank",
+  "block.magicalcrystal.stripped_chaos_log":"Stripped Chaos Log",
+  "block.magicalcrystal.stripped_chaos_wood":"Stripped Chaos Wood",
+  "block.magicalcrystal.chaos_button":"Chaos Button",
+  "block.magicalcrystal.chaos_pressure_plate":"Chaos Pressure Plate",
+  "block.magicalcrystal.chaos_fence":"Chaos Fence",
+  "block.magicalcrystal.chaos_fence_gate":"Chaos Fence Gate",
+
+  "itemGroup.magicalcrystal.magicalcrystal_item_group":"Magical Crystal World"
+
+
+}

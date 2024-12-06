@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "magicalcrystal:block/stripped_chaos_log",
+    "side": "magicalcrystal:block/stripped_chaos_log"
+  }
+}
