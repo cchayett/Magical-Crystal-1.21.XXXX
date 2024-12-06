@@ -4,6 +4,7 @@
   "item.magicalcrystal.magical_crystal_fragment":"Magical Crystal Fragment",
   "item.magicalcrystal.magical_crystal_nugget":"Magical Crystal Nugget",
   "item.magicalcrystal.magical_crystal_coal":"Magical Crystal Coal",
+  "item.magicalcrystal.magical_crystal_screen": "Magical Crystal Screen",
 
   "block.magicalcrystal.magical_crystal_block":"Magical Crystal Block",
   "block.magicalcrystal.magical_crystal_ore":"Magical Crystal Ore",
@@ -19,7 +20,8 @@
   "block.magicalcrystal.chaos_fence":"Chaos Fence",
   "block.magicalcrystal.chaos_fence_gate":"Chaos Fence Gate",
 
-  "itemGroup.magicalcrystal.magicalcrystal_item_group":"Magical Crystal World"
+  "itemGroup.magicalcrystal.magical_crystal_item_group":"Magical Crystal World: Items",
+  "itemGroup.magicalcrystal.magical_crystal_block_group":"Magical Crystal World: Blocks"
 
 
 }

@@ -1,6 +1,7 @@
 package com.chayet.magicalcrystal;
 
 import com.chayet.magicalcrystal.blocks.ModBlocks;
+import com.chayet.magicalcrystal.items.ModItemGroups;
 import com.chayet.magicalcrystal.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,12 +16,14 @@ public class MagicalCrystal implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();//register itemGroups
+
+		ModItems.registerModItems();//register items
+		ModBlocks.registerModBlocks();//register blocks
 
 		FuelRegistryEvents.BUILD.register(((builder, context) -> {
 			builder.add(ModItems.MAGICAL_CRYSTAL_COAL, 6400);
-		}));
+		}));//set fuels
 
 	}
 }

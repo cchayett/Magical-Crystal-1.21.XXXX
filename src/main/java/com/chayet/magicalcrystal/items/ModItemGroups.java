@@ -1,0 +1,45 @@
+package com.chayet.magicalcrystal.items;
+
+import com.chayet.magicalcrystal.MagicalCrystal;
+import com.chayet.magicalcrystal.blocks.ModBlocks;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
+public class ModItemGroups {
+
+    //first group for items
+    public static final ItemGroup MAGICAL_CRYSTAL_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_item_group"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MAGICAL_CRYSTAL_ITEM))
+                    .displayName(Text.translatable("itemGroup.magicalcrystal.magical_crystal_item_group"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.MAGICAL_CRYSTAL_ITEM);
+                        entries.add(ModItems.MAGICAL_CRYSTAL_INGOT);
+                        entries.add(ModItems.MAGICAL_CRYSTAL_COAL);
+                        entries.add(ModItems.MAGICAL_CRYSTAL_FRAGMENT);
+                        entries.add(ModItems.MAGICAL_CRYSTAL_NUGGET);
+                        entries.add(ModItems.MAGICAL_CRYSTAL_SCREEN);
+                    })).build());
+
+    //second group for blocks
+    public static final ItemGroup MAGICAL_CRYSTAL_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_block_group"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MAGICAL_CRYSTAL_BLOCK))
+                    .displayName(Text.translatable("itemGroup.magicalcrystal.magical_crystal_block_group"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModBlocks.MAGICAL_CRYSTAL_BLOCK);
+                        entries.add(ModBlocks.MAGICAL_CRYSTAL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_MAGICAL_CRYSTAL_ORE);
+                        //entries.add(ModBlocks.MAGICAL_CRYSTAL_FRAGMENT);
+                        //entries.add(ModBlocks.MAGICAL_CRYSTAL_NUGGET);
+                    })).build());
+
+    public static void registerItemGroups() {
+        MagicalCrystal.LOGGER.info("Registering Item Groups for Magical Crystal");
+    }
+}

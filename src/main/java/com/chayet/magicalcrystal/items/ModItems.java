@@ -27,6 +27,9 @@ public class ModItems {
     public static final Item MAGICAL_CRYSTAL_NUGGET = registerItem("magical_crystal_nugget", new Item(new Item.Settings()
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_nugget")))));
 
+    public static final Item MAGICAL_CRYSTAL_SCREEN = registerItem("magical_crystal_screen", new Item(new Item.Settings().maxCount(1)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_screen")))));
+
 
 
     //item register method
@@ -37,13 +40,5 @@ public class ModItems {
     //all items register method
     public static void registerModItems() {
         MagicalCrystal.LOGGER.info("Registering Mod Items for " + MagicalCrystal.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(MAGICAL_CRYSTAL_ITEM);
-            entries.add(MAGICAL_CRYSTAL_INGOT);
-            entries.add(MAGICAL_CRYSTAL_COAL);
-            entries.add(MAGICAL_CRYSTAL_FRAGMENT);
-            entries.add(MAGICAL_CRYSTAL_NUGGET);
-        });
     }
 }
