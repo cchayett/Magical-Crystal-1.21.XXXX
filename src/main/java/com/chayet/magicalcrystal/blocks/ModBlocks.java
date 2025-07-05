@@ -34,6 +34,45 @@ public class ModBlocks {
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "deepslate_magical_crystal_ore")))
             ));
 
+    //chaos tree blocks
+    public static final Block CHAOS_LOG = registerBlocks("chaos_log",
+            new Block(AbstractBlock.Settings.create().strength(10f)
+                    .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_log")))
+            ));
+    public static final Block CHAOS_LEAVES = registerBlocks("chaos_leaves",
+            new Block(AbstractBlock.Settings.create().strength(2f)
+                    .sounds(BlockSoundGroup.AZALEA_LEAVES).mapColor(MapColor.PALE_PURPLE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_leaves")))
+            ));
+    public static final Block CHAOS_WOOD = registerBlocks("chaos_wood",
+            new Block(AbstractBlock.Settings.create().strength(10f)
+                    .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_wood")))
+            ));
+    public static final Block CHAOS_PLANKS = registerBlocks("chaos_planks",
+            new Block(AbstractBlock.Settings.create().strength(10f)
+                    .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_planks")))
+            ));
+    public static final Block STRIPPED_CHAOS_LOG = registerBlocks("stripped_chaos_log",
+            new Block(AbstractBlock.Settings.create().strength(10f)
+                    .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "stripped_chaos_log")))
+            ));
+    public static final Block STRIPPED_CHAOS_WOOD = registerBlocks("stripped_chaos_wood",
+            new Block(AbstractBlock.Settings.create().strength(10f)
+                    .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "stripped_chaos_wood")))
+            ));
+
+    //working blocks
+    public static final Block MAGICON_COLLECTOR_DEVICE = registerBlocks("magicon_collector_device",
+            new Block(AbstractBlock.Settings.create().strength(10f)
+                    .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "magicon_collector_device")))
+            ));
+
 
     //method for block items
     private static void registerBlockItems(String name, Block block) {

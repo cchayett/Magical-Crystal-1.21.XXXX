@@ -13,12 +13,14 @@
   "block.magicalcrystal.chaos_log":"Chaos Log",
   "block.magicalcrystal.chaos_wood":"Chaos Wood",
   "block.magicalcrystal.chaos_planks":"Chaos Plank",
+  "block.magicalcrystal.chaos_leaves": "Chaos Leaves",
   "block.magicalcrystal.stripped_chaos_log":"Stripped Chaos Log",
   "block.magicalcrystal.stripped_chaos_wood":"Stripped Chaos Wood",
   "block.magicalcrystal.chaos_button":"Chaos Button",
   "block.magicalcrystal.chaos_pressure_plate":"Chaos Pressure Plate",
   "block.magicalcrystal.chaos_fence":"Chaos Fence",
   "block.magicalcrystal.chaos_fence_gate":"Chaos Fence Gate",
+  "block.magicalcrystal.magicon_collector_device": "Magicon Collector Device",
 
   "itemGroup.magicalcrystal.magical_crystal_item_group":"Magical Crystal World: Items",
   "itemGroup.magicalcrystal.magical_crystal_block_group":"Magical Crystal World: Blocks"

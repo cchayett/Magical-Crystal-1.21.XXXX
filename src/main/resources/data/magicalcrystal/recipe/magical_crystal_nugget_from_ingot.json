@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "magicalcrystal:magical_crystal_ingot"
+  ],
+  "result": {
+    "id": "magicalcrystal:magical_crystal_nugget",
+    "count": 9
+  }
+}

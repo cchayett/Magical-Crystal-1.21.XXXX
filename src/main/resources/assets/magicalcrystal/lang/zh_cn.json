@@ -13,12 +13,14 @@
     "block.magicalcrystal.chaos_log":"混沌原木",
     "block.magicalcrystal.chaos_wood":"混沌木",
     "block.magicalcrystal.chaos_planks":"混沌木板",
+    "block.magicalcrystal.chaos_leaves": "混沌树叶",
     "block.magicalcrystal.stripped_chaos_log":"去皮混沌原木",
     "block.magicalcrystal.stripped_chaos_wood":"去皮混沌木",
     "block.magicalcrystal.chaos_button":"混沌木按钮",
     "block.magicalcrystal.chaos_pressure_plate":"混沌木压力板",
     "block.magicalcrystal.chaos_fence":"混沌木栅栏",
     "block.magicalcrystal.chaos_fence_gate":"混沌木栅栏门",
+    "block.magicalcrystal.magicon_collector_device": "魔素收集装置",
 
     "itemGroup.magicalcrystal.magical_crystal_item_group":"魔晶世界：物品",
     "itemGroup.magicalcrystal.magical_crystal_block_group":"魔晶世界：方块"

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "magicalcrystal:magical_crystal_block",
+    "magicalcrystal:magical_crystal_ore",
+    "magicalcrystal:deepslate_magical_crystal_ore"
+  ]
+}

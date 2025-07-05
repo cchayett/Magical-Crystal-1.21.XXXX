@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "***",
+    "*#*",
+    "***"
+  ],
+  "key": {
+    "*": "magicalcrystal:magical_crystal_fragment",
+    "#": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "magicalcrystal:magical_crystal"
+  }
+}

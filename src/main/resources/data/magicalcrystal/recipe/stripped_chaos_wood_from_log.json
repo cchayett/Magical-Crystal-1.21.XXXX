@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "magicalcrystal:stripped_chaos_log",
+    "magicalcrystal:stripped_chaos_log",
+    "magicalcrystal:stripped_chaos_log",
+    "magicalcrystal:stripped_chaos_log"
+  ],
+  "result": {
+    "id": "magicalcrystal:stripped_chaos_wood",
+    "count": 3
+  }
+}

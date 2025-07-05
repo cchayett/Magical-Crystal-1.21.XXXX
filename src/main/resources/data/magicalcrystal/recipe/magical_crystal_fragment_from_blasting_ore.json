@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "magical_crystal_fragment",
+  "ingredient": [
+    "magicalcrystal:magical_crystal_ore"
+  ],
+  "result": {
+    "id": "magicalcrystal:magical_crystal_fragment"
+  }
+}

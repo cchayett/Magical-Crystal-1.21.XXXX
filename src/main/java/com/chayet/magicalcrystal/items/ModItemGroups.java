@@ -35,8 +35,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGICAL_CRYSTAL_BLOCK);
                         entries.add(ModBlocks.MAGICAL_CRYSTAL_ORE);
                         entries.add(ModBlocks.DEEPSLATE_MAGICAL_CRYSTAL_ORE);
-                        //entries.add(ModBlocks.MAGICAL_CRYSTAL_FRAGMENT);
-                        //entries.add(ModBlocks.MAGICAL_CRYSTAL_NUGGET);
+                        entries.add(ModBlocks.CHAOS_LOG);
+                        entries.add(ModBlocks.CHAOS_LEAVES);
+                        entries.add(ModBlocks.CHAOS_PLANKS);
+                        entries.add(ModBlocks.CHAOS_WOOD);
+                        entries.add(ModBlocks.STRIPPED_CHAOS_LOG);
+                        entries.add(ModBlocks.STRIPPED_CHAOS_WOOD);
+                        entries.add(ModBlocks.MAGICON_COLLECTOR_DEVICE);
                     })).build());
 
     public static void registerItemGroups() {
