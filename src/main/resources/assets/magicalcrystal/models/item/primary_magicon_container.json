@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "magicalcrystal:item/primary_magicon_container"
+  }
+}

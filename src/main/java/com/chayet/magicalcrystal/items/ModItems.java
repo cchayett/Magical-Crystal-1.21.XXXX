@@ -1,6 +1,7 @@
 package com.chayet.magicalcrystal.items;
 
 import com.chayet.magicalcrystal.MagicalCrystal;
+import com.chayet.magicalcrystal.items.custom.MagiconContainerItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -28,7 +29,9 @@ public class ModItems {
     public static final Item MAGICAL_CRYSTAL_SCREEN = registerItem("magical_crystal_screen", new Item(new Item.Settings().maxCount(1)
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_screen")))));
 
-
+    //custom items.
+    public static final Item PRIMARY_MAGICON_CONTAINER = registerItem("primary_magicon_container", new MagiconContainerItem(new Item.Settings().maxDamage(1000)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "primary_magicon_container")))));
 
     //item register method
     private static Item registerItem(String name, Item item) {

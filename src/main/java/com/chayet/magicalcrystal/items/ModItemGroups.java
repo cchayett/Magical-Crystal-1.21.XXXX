@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGICAL_CRYSTAL_FRAGMENT);
                         entries.add(ModItems.MAGICAL_CRYSTAL_NUGGET);
                         entries.add(ModItems.MAGICAL_CRYSTAL_SCREEN);
+                        entries.add(ModItems.PRIMARY_MAGICON_CONTAINER);
                     })).build());
 
     //second group for blocks
@@ -35,12 +36,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGICAL_CRYSTAL_BLOCK);
                         entries.add(ModBlocks.MAGICAL_CRYSTAL_ORE);
                         entries.add(ModBlocks.DEEPSLATE_MAGICAL_CRYSTAL_ORE);
+
                         entries.add(ModBlocks.CHAOS_LOG);
                         entries.add(ModBlocks.CHAOS_LEAVES);
                         entries.add(ModBlocks.CHAOS_PLANKS);
                         entries.add(ModBlocks.CHAOS_WOOD);
                         entries.add(ModBlocks.STRIPPED_CHAOS_LOG);
                         entries.add(ModBlocks.STRIPPED_CHAOS_WOOD);
+                        entries.add(ModBlocks.CHAOS_STAIRS);
+                        entries.add(ModBlocks.CHAOS_SLAB);
+                        entries.add(ModBlocks.CHAOS_BUTTON);
+                        entries.add(ModBlocks.CHAOS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHAOS_FENCE);
+                        entries.add(ModBlocks.CHAOS_FENCE_GATE);
+                        entries.add(ModBlocks.CHAOS_DOOR);
+                        entries.add(ModBlocks.CHAOS_TRAPDOOR);
+
                         entries.add(ModBlocks.MAGICON_COLLECTOR_DEVICE);
                     })).build());
 
