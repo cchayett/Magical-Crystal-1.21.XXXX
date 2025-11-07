@@ -19,12 +19,18 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemGroup.magicalcrystal.magical_crystal_item_group"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.MAGICAL_CRYSTAL_ITEM);
+
                         entries.add(ModItems.MAGICAL_CRYSTAL_INGOT);
                         entries.add(ModItems.MAGICAL_CRYSTAL_COAL);
                         entries.add(ModItems.MAGICAL_CRYSTAL_FRAGMENT);
                         entries.add(ModItems.MAGICAL_CRYSTAL_NUGGET);
+
                         entries.add(ModItems.MAGICAL_CRYSTAL_SCREEN);
                         entries.add(ModItems.PRIMARY_MAGICON_CONTAINER);
+
+                        entries.add(ModItems.MAGICAL_CRYSTAL_AXE);
+                        entries.add(ModItems.MAGICAL_CRYSTAL_PICKAXE);
+                        entries.add(ModItems.MAGICAL_CRYSTAL_SHOVEL);
                     })).build());
 
     //second group for blocks
@@ -43,6 +49,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHAOS_WOOD);
                         entries.add(ModBlocks.STRIPPED_CHAOS_LOG);
                         entries.add(ModBlocks.STRIPPED_CHAOS_WOOD);
+
                         entries.add(ModBlocks.CHAOS_STAIRS);
                         entries.add(ModBlocks.CHAOS_SLAB);
                         entries.add(ModBlocks.CHAOS_BUTTON);

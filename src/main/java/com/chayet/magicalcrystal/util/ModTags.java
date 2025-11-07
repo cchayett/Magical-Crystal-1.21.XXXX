@@ -9,6 +9,8 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks{
+        public static final TagKey<Block> NEED_MAGICAL_CRYSTAL_TOOL = createTag("need_magical_crystal_tool");
+        public static final TagKey<Block> INCORRECT_FOR_MAGICAL_CRYSTAL_TOOL = createTag("incorrect_for_magical_crystal_tool");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, name));

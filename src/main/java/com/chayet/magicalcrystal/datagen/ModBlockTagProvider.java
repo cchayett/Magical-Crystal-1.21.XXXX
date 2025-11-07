@@ -1,6 +1,7 @@
 package com.chayet.magicalcrystal.datagen;
 
 import com.chayet.magicalcrystal.blocks.ModBlocks;
+import com.chayet.magicalcrystal.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -18,7 +19,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.MAGICAL_CRYSTAL_BLOCK)
                 .add(ModBlocks.DEEPSLATE_MAGICAL_CRYSTAL_ORE)
-                .add(ModBlocks.MAGICAL_CRYSTAL_BLOCK);
+                .add(ModBlocks.MAGICAL_CRYSTAL_ORE);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.CHAOS_FENCE_GATE)
@@ -33,5 +34,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.CHAOS_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.CHAOS_FENCE_GATE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEED_MAGICAL_CRYSTAL_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
     }
 }

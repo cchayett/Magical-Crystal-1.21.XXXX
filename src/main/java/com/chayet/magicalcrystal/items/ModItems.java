@@ -2,7 +2,10 @@ package com.chayet.magicalcrystal.items;
 
 import com.chayet.magicalcrystal.MagicalCrystal;
 import com.chayet.magicalcrystal.items.custom.MagiconContainerItem;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -28,6 +31,20 @@ public class ModItems {
 
     public static final Item MAGICAL_CRYSTAL_SCREEN = registerItem("magical_crystal_screen", new Item(new Item.Settings().maxCount(1)
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_screen")))));
+
+    //tool items
+    //magical crystal tools
+    public static final Item MAGICAL_CRYSTAL_PICKAXE = registerItem("magical_crystal_pickaxe",
+            new PickaxeItem(ModToolMaterials.MAGICAL_CRYSTAL, 1, -2.8f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_pickaxe")))));
+
+    public static final Item MAGICAL_CRYSTAL_AXE = registerItem("magical_crystal_axe",
+            new AxeItem(ModToolMaterials.MAGICAL_CRYSTAL, 6, -3.2f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_axe")))));
+
+    public static final Item MAGICAL_CRYSTAL_SHOVEL = registerItem("magical_crystal_shovel",
+            new ShovelItem(ModToolMaterials.MAGICAL_CRYSTAL, 1.5f, -3.0f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_shovel")))));
 
     //custom items.
     public static final Item PRIMARY_MAGICON_CONTAINER = registerItem("primary_magicon_container", new MagiconContainerItem(new Item.Settings().maxDamage(1000)

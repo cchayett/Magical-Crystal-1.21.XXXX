@@ -22,6 +22,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHAOS_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHAOS_LOG);
+
         BlockStateModelGenerator.BlockTexturePool chaosWoodPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHAOS_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHAOS_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STRIPPED_CHAOS_WOOD);
@@ -48,7 +49,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_NUGGET, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_SCREEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRIMARY_MAGICON_CONTAINER, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_SHOVEL, Models.HANDHELD);
     }
 }

@@ -9,6 +9,9 @@
   "item.magicalcrystal.magicon_container.charged": "Magicon:§3%s",
   "item.magicalcrystal.magicon_container_describe": "This item is a container that can hold a number of magicons",
   "item.magicalcrystal.magicon_container_describe.not_shifted": "Press §e[Shift]§r to show the describe",
+  "item.magicalcrystal.magical_crystal_pickaxe": "Magical Crystal Pickaxe",
+  "item.magicalcrystal.magical_crystal_axe": "Magical Crystal Axe",
+  "item.magicalcrystal.magical_crystal_shovel": "Magical Crystal Shovel",
 
   "block.magicalcrystal.magical_crystal_block":"Magical Crystal Block",
   "block.magicalcrystal.magical_crystal_ore":"Magical Crystal Ore",

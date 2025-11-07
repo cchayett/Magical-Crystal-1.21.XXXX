@@ -98,6 +98,39 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input(ModBlocks.STRIPPED_CHAOS_LOG, 4)
                         .criterion(hasItem(ModBlocks.STRIPPED_CHAOS_LOG), conditionsFromItem(ModBlocks.STRIPPED_CHAOS_LOG))
                         .offerTo(exporter, RegistryKey.of(RegistryKeys.RECIPE, Identifier.of(MagicalCrystal.MOD_ID, "stripped_chaos_wood_from_log")));
+
+                //for chaos trees series block
+
+                //waiting
+
+                //for magical crystal tools
+                createShaped(RecipeCategory.TOOLS, ModItems.MAGICAL_CRYSTAL_PICKAXE)
+                        .pattern("mmm")
+                        .pattern(" s ")
+                        .pattern(" s ")
+                        .input('m', ModItems.MAGICAL_CRYSTAL_INGOT)
+                        .input('s', Items.STICK)
+                        .criterion(hasItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT), conditionsFromItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.TOOLS, ModItems.MAGICAL_CRYSTAL_AXE)
+                        .pattern("mm ")
+                        .pattern("ms ")
+                        .pattern(" s ")
+                        .input('m', ModItems.MAGICAL_CRYSTAL_INGOT)
+                        .input('s', Items.STICK)
+                        .criterion(hasItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT), conditionsFromItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.TOOLS, ModItems.MAGICAL_CRYSTAL_SHOVEL)
+                        .pattern(" m ")
+                        .pattern(" s ")
+                        .pattern(" s ")
+                        .input('m', ModItems.MAGICAL_CRYSTAL_INGOT)
+                        .input('s', Items.STICK)
+                        .criterion(hasItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT), conditionsFromItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT))
+                        .offerTo(exporter);
+
             }
         };
     }

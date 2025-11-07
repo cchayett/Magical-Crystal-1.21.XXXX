@@ -34,63 +34,63 @@ public class ModBlocks {
 
     //chaos tree blocks
     public static final Block CHAOS_LOG = registerBlocks("chaos_log",
-            new Block(AbstractBlock.Settings.create().strength(10f)
+            new Block(AbstractBlock.Settings.create().strength(3.5f)
                     .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_log")))
             ));
     public static final Block CHAOS_LEAVES = registerBlocks("chaos_leaves",
-            new Block(AbstractBlock.Settings.create().strength(2f)
+            new Block(AbstractBlock.Settings.create().strength(0.5f)
                     .sounds(BlockSoundGroup.AZALEA_LEAVES).mapColor(MapColor.PALE_PURPLE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_leaves")))
             ));
     public static final Block CHAOS_WOOD = registerBlocks("chaos_wood",
-            new Block(AbstractBlock.Settings.create().strength(10f)
+            new Block(AbstractBlock.Settings.create().strength(3.5f)
                     .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_wood")))
             ));
     public static final Block CHAOS_PLANKS = registerBlocks("chaos_planks",
-            new Block(AbstractBlock.Settings.create().strength(10f)
+            new Block(AbstractBlock.Settings.create().strength(3.5f)
                     .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_planks")))
             ));
     public static final Block STRIPPED_CHAOS_LOG = registerBlocks("stripped_chaos_log",
-            new Block(AbstractBlock.Settings.create().strength(10f)
+            new Block(AbstractBlock.Settings.create().strength(3.5f)
                     .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "stripped_chaos_log")))
             ));
     public static final Block STRIPPED_CHAOS_WOOD = registerBlocks("stripped_chaos_wood",
-            new Block(AbstractBlock.Settings.create().strength(10f)
+            new Block(AbstractBlock.Settings.create().strength(3.5f)
                     .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "stripped_chaos_wood")))
             ));
 
     //not cube blocks
     public static final Block CHAOS_STAIRS = registerBlocks("chaos_stairs",
-            new StairsBlock(ModBlocks.CHAOS_PLANKS.getDefaultState(), AbstractBlock.Settings.create().strength(6f)
+            new StairsBlock(ModBlocks.CHAOS_PLANKS.getDefaultState(), AbstractBlock.Settings.create().strength(2f)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID,"chaos_stairs")))));
     public static final Block CHAOS_SLAB = registerBlocks("chaos_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(6f)
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_slab")))));
 
     public static final Block CHAOS_BUTTON = registerBlocks("chaos_button",
-            new ButtonBlock(BlockSetType.IRON, 5, AbstractBlock.Settings.create().strength(4f).noCollision()
+            new ButtonBlock(BlockSetType.IRON, 5, AbstractBlock.Settings.create().strength(0.5f).noCollision()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID,"chaos_button")))));
     public static final Block CHAOS_PRESSURE_PLATE = registerBlocks("chaos_pressure_plate",
-            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(6f).noCollision()
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).noCollision()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_pressure_plate")))));
 
     public static final Block CHAOS_FENCE = registerBlocks("chaos_fence",
-            new FenceBlock(AbstractBlock.Settings.create().strength(8f).requiresTool()
+            new FenceBlock(AbstractBlock.Settings.create().strength(2.5f).requiresTool()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID,"chaos_fence")))));
     public static final Block CHAOS_FENCE_GATE = registerBlocks("chaos_fence_gate",
-            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(8f).requiresTool()
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(2.5f).requiresTool()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID,"chaos_fence_gate")))));
 
     public static final Block CHAOS_DOOR = registerBlocks("chaos_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(10f).requiresTool().nonOpaque()
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.5f).requiresTool().nonOpaque()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_door")))));
     public static final Block CHAOS_TRAPDOOR = registerBlocks("chaos_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(10f).requiresTool().nonOpaque()
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(3.5f).requiresTool().nonOpaque()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_trapdoor")))));
 
 
