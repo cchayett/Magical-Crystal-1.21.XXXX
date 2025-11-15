@@ -39,7 +39,7 @@ public class ModItems {
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_pickaxe")))));
 
     public static final Item MAGICAL_CRYSTAL_AXE = registerItem("magical_crystal_axe",
-            new AxeItem(ModToolMaterials.MAGICAL_CRYSTAL, 6, -3.2f, new Item.Settings()
+            new AxeItem(ModToolMaterials.MAGICAL_CRYSTAL, 6, -3.0f, new Item.Settings()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_axe")))));
 
     public static final Item MAGICAL_CRYSTAL_SHOVEL = registerItem("magical_crystal_shovel",

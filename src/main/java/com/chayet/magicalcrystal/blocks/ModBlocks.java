@@ -49,7 +49,7 @@ public class ModBlocks {
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_wood")))
             ));
     public static final Block CHAOS_PLANKS = registerBlocks("chaos_planks",
-            new Block(AbstractBlock.Settings.create().strength(3.5f)
+            new Block(AbstractBlock.Settings.create().strength(3.5f, 3.0f)
                     .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.PURPLE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MagicalCrystal.MOD_ID, "chaos_planks")))
             ));
