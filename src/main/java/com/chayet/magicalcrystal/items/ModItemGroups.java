@@ -28,6 +28,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGICAL_CRYSTAL_SCREEN);
                         entries.add(ModItems.PRIMARY_MAGICON_CONTAINER);
 
+                        entries.add(ModItems.MAGICAL_CRYSTAL_STICK);
                         entries.add(ModItems.MAGICAL_CRYSTAL_AXE);
                         entries.add(ModItems.MAGICAL_CRYSTAL_PICKAXE);
                         entries.add(ModItems.MAGICAL_CRYSTAL_SHOVEL);

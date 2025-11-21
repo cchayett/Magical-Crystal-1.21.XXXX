@@ -104,12 +104,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 //waiting
 
                 //for magical crystal tools
+                createShaped(RecipeCategory.MISC, ModItems.MAGICAL_CRYSTAL_STICK)
+                        .pattern("c")
+                        .pattern("c")
+                        .input('c', ModItems.MAGICAL_CRYSTAL_INGOT)
+                        .criterion(hasItem(ModItems.MAGICAL_CRYSTAL_INGOT), conditionsFromItem(ModItems.MAGICAL_CRYSTAL_INGOT))
+                        .offerTo(exporter);
+
                 createShaped(RecipeCategory.TOOLS, ModItems.MAGICAL_CRYSTAL_PICKAXE)
                         .pattern("mmm")
                         .pattern(" s ")
                         .pattern(" s ")
                         .input('m', ModItems.MAGICAL_CRYSTAL_INGOT)
-                        .input('s', Items.STICK)
+                        .input('s', ModItems.MAGICAL_CRYSTAL_STICK)
                         .criterion(hasItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT), conditionsFromItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT))
                         .offerTo(exporter);
 
@@ -118,7 +125,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("ms ")
                         .pattern(" s ")
                         .input('m', ModItems.MAGICAL_CRYSTAL_INGOT)
-                        .input('s', Items.STICK)
+                        .input('s', ModItems.MAGICAL_CRYSTAL_STICK)
                         .criterion(hasItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT), conditionsFromItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT))
                         .offerTo(exporter);
 
@@ -127,7 +134,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern(" s ")
                         .pattern(" s ")
                         .input('m', ModItems.MAGICAL_CRYSTAL_INGOT)
-                        .input('s', Items.STICK)
+                        .input('s', ModItems.MAGICAL_CRYSTAL_STICK)
                         .criterion(hasItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT), conditionsFromItem(ModItems.MAGICAL_CRYSTAL_FRAGMENT))
                         .offerTo(exporter);
 

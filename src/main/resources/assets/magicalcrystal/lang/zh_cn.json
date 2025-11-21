@@ -9,6 +9,7 @@
     "item.magicalcrystal.magicon_container.charged": "魔素量：§3%s",
     "item.magicalcrystal.magicon_container_describe": "这是一个可以存储魔素的容器",
     "item.magicalcrystal.magicon_container_describe.not_shifted": "按下§e[Shift]§r显示详细介绍",
+    "item.magicalcrystal.magical_crystal_stick": "魔晶棍",
     "item.magicalcrystal.magical_crystal_pickaxe": "魔晶镐",
     "item.magicalcrystal.magical_crystal_axe": "魔晶斧",
     "item.magicalcrystal.magical_crystal_shovel": "魔晶锹",

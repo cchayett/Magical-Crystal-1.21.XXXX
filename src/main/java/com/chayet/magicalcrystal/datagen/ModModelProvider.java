@@ -53,6 +53,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_SCREEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRIMARY_MAGICON_CONTAINER, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_STICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_SHOVEL, Models.HANDHELD);

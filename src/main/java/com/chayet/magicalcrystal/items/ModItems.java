@@ -32,6 +32,9 @@ public class ModItems {
     public static final Item MAGICAL_CRYSTAL_SCREEN = registerItem("magical_crystal_screen", new Item(new Item.Settings().maxCount(1)
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_screen")))));
 
+    public static final Item MAGICAL_CRYSTAL_STICK = registerItem("magical_crystal_stick", new Item(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_stick")))));
+
     //tool items
     //magical crystal tools
     public static final Item MAGICAL_CRYSTAL_PICKAXE = registerItem("magical_crystal_pickaxe",
