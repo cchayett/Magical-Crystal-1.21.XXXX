@@ -3,10 +3,8 @@ package com.chayet.magicalcrystal.items;
 import com.chayet.magicalcrystal.MagicalCrystal;
 import com.chayet.magicalcrystal.items.custom.MagiconContainerItem;
 import com.chayet.magicalcrystal.items.custom.MiningHammerItem;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ShovelItem;
+import net.minecraft.item.*;
+import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -53,6 +51,20 @@ public class ModItems {
     public static final Item MAGICAL_CRYSTAL_MINING_HAMMER = registerItem("magical_crystal_mining_hammer",
             new MiningHammerItem(ModToolMaterials.MAGICAL_CRYSTAL, 9, -3.4f, new Item.Settings()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_mining_hammer")))));
+
+    //armor items
+    public static final Item MAGICAL_CRYSTAL_HELMET = registerItem("magical_crystal_helmet",
+            new ArmorItem(ModArmorMaterials.MAGICAL_CRYSTAL_ARMOR_MATERIAL, EquipmentType.HELMET, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_helmet")))));
+    public static final Item MAGICAL_CRYSTAL_CHESTPLATE = registerItem("magical_crystal_chestplate",
+            new ArmorItem(ModArmorMaterials.MAGICAL_CRYSTAL_ARMOR_MATERIAL, EquipmentType.CHESTPLATE, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_chestplate")))));
+    public static final Item MAGICAL_CRYSTAL_LEGGINGS = registerItem("magical_crystal_leggings",
+            new ArmorItem(ModArmorMaterials.MAGICAL_CRYSTAL_ARMOR_MATERIAL, EquipmentType.LEGGINGS, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_leggings")))));
+    public static final Item MAGICAL_CRYSTAL_BOOTS = registerItem("magical_crystal_boots",
+            new ArmorItem(ModArmorMaterials.MAGICAL_CRYSTAL_ARMOR_MATERIAL, EquipmentType.BOOTS, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_boots")))));
 
     //custom items.
     public static final Item PRIMARY_MAGICON_CONTAINER = registerItem("primary_magicon_container", new MagiconContainerItem(new Item.Settings().maxDamage(1000)

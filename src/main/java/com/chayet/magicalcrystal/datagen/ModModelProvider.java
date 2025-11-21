@@ -1,5 +1,6 @@
 package com.chayet.magicalcrystal.datagen;
 
+import com.chayet.magicalcrystal.MagicalCrystal;
 import com.chayet.magicalcrystal.blocks.ModBlocks;
 import com.chayet.magicalcrystal.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -7,6 +8,9 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.equipment.EquipmentModel;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -58,5 +62,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_MINING_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(ModItems.MAGICAL_CRYSTAL_HELMET, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal")).build(), EquipmentSlot.HEAD);
+        itemModelGenerator.registerArmor(ModItems.MAGICAL_CRYSTAL_CHESTPLATE, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal")).build(), EquipmentSlot.CHEST);
+        itemModelGenerator.registerArmor(ModItems.MAGICAL_CRYSTAL_LEGGINGS, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal")).build(), EquipmentSlot.LEGS);
+        itemModelGenerator.registerArmor(ModItems.MAGICAL_CRYSTAL_BOOTS, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal")).build(), EquipmentSlot.FEET);
+
     }
 }
