@@ -3,8 +3,10 @@ package com.chayet.magicalcrystal;
 import com.chayet.magicalcrystal.blocks.ModBlocks;
 import com.chayet.magicalcrystal.items.ModItemGroups;
 import com.chayet.magicalcrystal.items.ModItems;
+import com.chayet.magicalcrystal.util.MiningHammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +26,8 @@ public class MagicalCrystal implements ModInitializer {
 		FuelRegistryEvents.BUILD.register(((builder, context) -> {
 			builder.add(ModItems.MAGICAL_CRYSTAL_COAL, 6400);
 		}));//set fuels
+
+        PlayerBlockBreakEvents.BEFORE.register(new MiningHammerUsageEvent());
 
 	}
 }

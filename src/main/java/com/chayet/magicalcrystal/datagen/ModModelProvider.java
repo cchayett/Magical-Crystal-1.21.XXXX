@@ -57,5 +57,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGICAL_CRYSTAL_MINING_HAMMER, Models.HANDHELD);
     }
 }

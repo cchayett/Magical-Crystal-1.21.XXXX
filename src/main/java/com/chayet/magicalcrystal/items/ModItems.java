@@ -2,6 +2,7 @@ package com.chayet.magicalcrystal.items;
 
 import com.chayet.magicalcrystal.MagicalCrystal;
 import com.chayet.magicalcrystal.items.custom.MagiconContainerItem;
+import com.chayet.magicalcrystal.items.custom.MiningHammerItem;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
@@ -48,6 +49,10 @@ public class ModItems {
     public static final Item MAGICAL_CRYSTAL_SHOVEL = registerItem("magical_crystal_shovel",
             new ShovelItem(ModToolMaterials.MAGICAL_CRYSTAL, 1.5f, -3.0f, new Item.Settings()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_shovel")))));
+
+    public static final Item MAGICAL_CRYSTAL_MINING_HAMMER = registerItem("magical_crystal_mining_hammer",
+            new MiningHammerItem(ModToolMaterials.MAGICAL_CRYSTAL, 9, -3.4f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MagicalCrystal.MOD_ID, "magical_crystal_mining_hammer")))));
 
     //custom items.
     public static final Item PRIMARY_MAGICON_CONTAINER = registerItem("primary_magicon_container", new MagiconContainerItem(new Item.Settings().maxDamage(1000)

@@ -32,6 +32,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGICAL_CRYSTAL_AXE);
                         entries.add(ModItems.MAGICAL_CRYSTAL_PICKAXE);
                         entries.add(ModItems.MAGICAL_CRYSTAL_SHOVEL);
+                        entries.add(ModItems.MAGICAL_CRYSTAL_MINING_HAMMER);
                     })).build());
 
     //second group for blocks
